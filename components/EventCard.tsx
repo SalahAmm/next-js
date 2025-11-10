@@ -16,7 +16,7 @@ const EventCard = ({title , image} : Props) => {
   <>
     <Link href={`/events`} id="event-card">
         <Image src={image}  alt={title} width={410} height={300} className="poster"/>
-        <p className="title">{title}</p>
+        <p className="title">{title}</p>,
     </Link>
     
   </>
